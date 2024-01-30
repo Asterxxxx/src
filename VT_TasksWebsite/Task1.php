@@ -69,6 +69,7 @@ include 'header.php'; ?>
 
 <h3>3.5 Commit all the changes you've made and push them to your GitHub repository to complete the task.</h3>
 
-<?php include "footer.php"; ?>
 
 </body>
+
+<?php include "footer.php"; ?>
