@@ -17,9 +17,9 @@ include 'header.php'; ?>
 <!--Exercise 3.2 -->
         <div class="article">
             <div class="form-container">
-            <form method="post" action="<?echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                First Name: <input type="text" name="fname" required> <br><br>
-                Last Name: <input type="text" name="lname" required> <br><br>
+            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+            First Name: <input type="text" name="fname" required> <br><br>
+            Last Name: <input type="text" name="lname" required> <br><br>
                 <button>Submit</button>
             </form>
 
