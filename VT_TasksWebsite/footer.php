@@ -11,7 +11,6 @@
                     <li><a href="Task5.php">Task 5</a></li>
                     <li><a href="Task6.php">Task 6</a></li>
                     <li><a href="Task7.php">Task 7</a></li>
-                    
                 </ul>
             </nav>
         </section>
@@ -39,14 +38,21 @@
                     <li><a href="#">Twitter</a></li>
                     <li><a href="#">Pinterest</a></li>
                     <li><a href="#">Newsletter</a></li>
-                </ul>  
+                </ul>
             </nav>
         </section>
         <section class="col-4">
-            <div class="image">
-                <a href="home.html"><img src="images/logo-2.png"></a>
+            <?php
+
+            // Exercise 3.8
+            $filename = 'Task3.php';
+            echo "LAST MODIFIED ON: " . date ("F d Y H:i:s.", filemtime($filename));
+
+            ?>
             </div>
         </section>
     </footer>
+
+</body>
 
 </html>

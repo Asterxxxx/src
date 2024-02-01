@@ -2,7 +2,7 @@
 $title = "Task 2 - Viktor Trilar";
 include 'header.php'; ?>
 
-<body>
+
     <!-- Home body container -->
 <div class="body-container">
 
@@ -28,6 +28,6 @@ include 'header.php'; ?>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quo vero nemo minus nihil totam ex. Ducimus facere odit, hic, dignissimos ab magnam illum quaerat quam laudantium quasi cum sunt?
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur magnam porro deserunt nam tempora, suscipit pariatur vero cupiditate, tempore velit obcaecati illum aliquam quas minus quae vel. Fugiat, aperiam?
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga est nisi ipsum neque placeat, id vel ut. Unde illum ad blanditiis quia possimus hic ipsam consectetur maxime, nesciunt praesentium odio.
-</body>
+
 
 <?php include 'footer.php'; ?>

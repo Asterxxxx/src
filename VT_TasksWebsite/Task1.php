@@ -4,8 +4,6 @@ $title = "Task 1 - Viktor Trilar";
 
 include 'header.php'; ?>
 
-<body>
-
 <!-- Home body container -->
 <div class="body-container">
 
@@ -69,7 +67,5 @@ include 'header.php'; ?>
 
 <h3>3.5 Commit all the changes you've made and push them to your GitHub repository to complete the task.</h3>
 
-
-</body>
 
 <?php include "footer.php"; ?>
