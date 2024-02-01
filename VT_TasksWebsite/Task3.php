@@ -1,5 +1,5 @@
 <?php 
-$title = 'Task 3';
+$title = 'Task 3 - Viktor Trilar';
 include 'header.php'; ?>
 
 

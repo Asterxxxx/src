@@ -19,6 +19,7 @@ include 'header.php'; ?>
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                 Name: <input type="text" name="name" required> <br><br>
                 Age: <input type="number" name="age" required> <br><br>
+                Enter your number:<input type="number" name="number" id="number1">
                 <button>Submit</button>
             </form>
 
@@ -46,15 +47,11 @@ include 'header.php'; ?>
                     break;
                 default:
                     echo "<br><br>It's not August yet, it's $monthName so I don't have any holidays.";
+                    echo "<br><br>";
             }
             ?>
 
             <!-- Exercise 4.4 -->
-            <form method="post" action="">
-                Enter your number:<input type="number" name="number" id="number1">
-                <button type="submit">Submit</button>
-            </form>
-
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $number = $_POST["number"];
@@ -70,6 +67,7 @@ include 'header.php'; ?>
             ?>
 
             <!-- Exercise 4.5 -->
+
             <?php
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $n = $_POST["number"];
@@ -81,6 +79,7 @@ include 'header.php'; ?>
                     $i++;
                 }
             }
+            echo "<br><br>"
             ?>
 
             <!-- Exercise 4.6 -->
