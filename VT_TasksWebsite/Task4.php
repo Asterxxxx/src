@@ -19,7 +19,7 @@ include 'header.php'; ?>
             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
                 Name: <input type="text" name="name" required> <br><br>
                 Age: <input type="number" name="age" required> <br><br>
-                Enter your number:<input type="number" name="number" id="number1">
+                Enter your number:<input type="number" name="number" required> <br><br>
                 <button>Submit</button>
             </form>
 
