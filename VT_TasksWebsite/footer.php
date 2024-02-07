@@ -4,13 +4,13 @@
             <p>QUICK LINKS</p>
             <nav>
                 <ul>
-                    <br><li><a href="Task1.php">Task 1</a></li>
-                    <li><a href="Task2.php">Task 2</a></li>
-                    <li><a href="Task3.php">Task 3</a></li>
-                    <li><a href="Task4.php">Task 4</a></li>
-                    <li><a href="Task5.php">Task 5</a></li>
-                    <li><a href="Task6.php">Task 6</a></li>
-                    <li><a href="Task7.php">Task 7</a></li>
+                    <br><li><a href="/~viktor23001/web-dev-env-main/VT_TasksWebsite/Task1.php">Task 1</a></li>
+                    <li><a href="/~viktor23001/web-dev-env-main/VT_TasksWebsite/Task2.php">Task 2</a></li>
+                    <li><a href="/~viktor23001/web-dev-env-main/VT_TasksWebsite/Task3.php">Task 3</a></li>
+                    <li><a href="/~viktor23001/web-dev-env-main/VT_TasksWebsite/Task4.php">Task 4</a></li>
+                    <li><a href="/~viktor23001/web-dev-env-main/VT_TasksWebsite/Task5.php">Task 5</a></li>
+                    <li><a href="/~viktor23001/web-dev-env-main/VT_TasksWebsite/Task6.php">Task 6</a></li>
+                    <li><a href="/~viktor23001/web-dev-env-main/crud/form.php">Task 7</a></li>
                 </ul>
             </nav>
         </section>
