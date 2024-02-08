@@ -2,7 +2,7 @@
 $title = "Task 7 - Viktor Trilar";
 include 'header.php'; ?>
 
-<body>
+
     <!-- Home body container -->
 <div class="body-container">
 
@@ -10,6 +10,9 @@ include 'header.php'; ?>
     <div class="home-banner-container">
         <img src="images/phpbanner.jpg" alt="php-banner" draggable="false">
     </div>
-</body>
+
+
+<script>document.write("Hello World")</script>
+
 
 <?php include 'footer.php'; ?>
