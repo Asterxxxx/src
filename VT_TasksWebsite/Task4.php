@@ -84,11 +84,11 @@ include 'header.php'; ?>
 
             <!-- Exercise 4.6 -->
             <?php
-            $Array = array("1", "2", "3", "4", "5");
+            $myarray=array("HTML", "CSS", "PHP", "JavaScript");
 
-            echo "<p>Numbers in my array from 1-5:<p>";
-            foreach ($Array as $element) {
-                echo $element;
+            echo "<p>Task 4.6</p>";
+            foreach ($myarray as $element) {
+                echo "<li>$element</li>";
             }
             ?>
         </div>
